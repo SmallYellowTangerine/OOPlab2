@@ -1,0 +1,22 @@
+﻿<Window x:Class="Labone.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="539.209" Width="827">
+    <Grid Background="#FFDCE2FD">
+        <Canvas x:Name="myCanvas" HorizontalAlignment="Left" Height="412" Margin="26,74,0,0" VerticalAlignment="Top" Width="766" Background="White"/>
+        <ComboBox x:Name="cccomboBox" HorizontalAlignment="Left" Margin="52,30,0,0" VerticalAlignment="Top" Width="120" IsReadOnly="True" RenderTransformOrigin="0.4,11.909">
+            <ComboBoxItem/>
+            <ComboBoxItem Content="ShapeLine"/>
+            <ComboBoxItem Content="ShapeTriangle"/>
+            <ComboBoxItem Content="Shape4angle"/>
+            <ComboBoxItem Content="Shape5angle"/>
+            <ComboBoxItem Content="Shape6angle"/>
+            <ComboBoxItem Content="ShapeStar"/>
+        </ComboBox>
+        <TextBox x:Name="TextBoxX" HorizontalAlignment="Left" Height="23" Margin="243,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74" RenderTransformOrigin="1.257,0.609"/>
+        <TextBox x:Name="TextBoxY" HorizontalAlignment="Left" Height="23" Margin="382,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74" RenderTransformOrigin="-1.378,0.087"/>
+        <Label Content="X coord" HorizontalAlignment="Left" Margin="243,4,0,0" VerticalAlignment="Top" RenderTransformOrigin="-12.263,-0.462"/>
+        <Label Content="Y coord" HorizontalAlignment="Left" Margin="382,4,0,0" VerticalAlignment="Top" RenderTransformOrigin="-12.263,-0.462"/>
+        <Button Content="Draw!" HorizontalAlignment="Left" Margin="690,30,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.56,-1" Click="Button_Click"/>
+    </Grid>
+</Window>
